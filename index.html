@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Device Access Terminal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>📱 Target: +92 370 2073138</h1>
+    <h2>📲 Device: Vivo Y20</h2>
+    
+    <div class="buttons">
+      <button onclick="startReset('single')">Reset This Device</button>
+      <button onclick="startReset('all')">Reset All WhatsApp Chat Devices</button>
+    </div>
+
+    <div id="loadingBox" class="hidden">
+      <h3 id="loadingText">Initializing...</h3>
+      <div class="timer" id="timer">15:00</div>
+    </div>
+
+    <div id="successMessage" class="hidden">✅ Reset Successful</div>
+
+    <div class="chats">
+      <h2>📨 Recent WhatsApp Chats</h2>
+      <div class="chat">Zeeshan: کیا ھال ھے جناب</div>
+      <div class="chat">Raja G: Ma fitt ap sunao</div>
+      <div class="chat">Zeeshan: بس فٹ آپ بٹاؤ کیا ہو رہا ہے اجکل</div>
+      <div class="chat">Raja G: Kuch ni jani</div>
+      <div class="chat">Zeeshan: اچھا آیان اور راجہ حارث والی ویڈیو تو بھیجو</div>
+      <div class="chat">Raja G: Jani woo larka abi gau ha</div>
+      <div class="chat">Zeeshan: اچھا یہ ویڈیو بنی کس نے ہے</div>
+      <div class="chat">Raja G: Ye haris ke ghr ki video he ya mobile side pe rkh ke khud in dono ne bnai ha</div>
+
+      <hr />
+
+      <div class="chat">Adnan: السلام علیکم بھائی</div>
+      <div class="chat">Mohsin: Walikom salam</div>
+
+      <hr />
+
+      <div class="chat">Adnan: السلام علیکم بھائی</div>
+      <div class="chat">Adnan: آپ آیان کے بھائی ہو کیا</div>
+
+      <hr />
+
+      <div class="chat">Unknown contact: 2 Voice Messages 🔊</div>
+    </div>
+
+    <p class="disclaimer">⚠️ DONT DO THIS AGAIN AND AGAIN OTHERWISE YOU GONNA AREST.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
