@@ -1,0 +1,65 @@
+body {
+  background-color: black;
+  color: #00ff00;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  margin: 10px 0;
+  text-shadow: 0 0 10px #00ff00;
+}
+
+.buttons button {
+  margin: 10px;
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: black;
+  border: 2px solid #00ff00;
+  color: #00ff00;
+  cursor: pointer;
+  text-shadow: 0 0 5px #00ff00;
+  transition: background-color 0.3s;
+}
+
+.buttons button:hover {
+  background-color: #003300;
+}
+
+.hidden {
+  display: none;
+}
+
+#loadingBox {
+  margin-top: 30px;
+}
+
+.timer {
+  font-size: 36px;
+  margin-top: 10px;
+  text-shadow: 0 0 8px #00ff00;
+}
+
+.chat {
+  text-align: left;
+  margin: 5px auto;
+  max-width: 500px;
+  background-color: #002200;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #00ff00;
+}
+
+hr {
+  border: none;
+  border-top: 1px dashed #00ff00;
+  margin: 20px auto;
+  max-width: 500px;
+}
+
+.disclaimer {
+  margin-top: 40px;
+  font-size: 14px;
+  color: #888;
+}
